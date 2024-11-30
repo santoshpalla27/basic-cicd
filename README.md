@@ -1,1 +1,1 @@
-# basic-cicd
+# toy-store

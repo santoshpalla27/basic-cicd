@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+  #main-nav{
+    display: none;
+  }
+  #ham-nav{
+    display: flex;
+  }
+  .hero-section{
+ 
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+  }
+  .features{
+   
+    grid-template-columns: 1fr 1fr;
+    }
+    .features-two{
+     
+    grid-template-columns: 1fr 1fr;
+
+    }
+    .offer{
+      font-size: 1rem;
+      grid-template-columns: 1fr;
+      }
+      .footer{
+        grid-template-columns: 1fr 1fr;
+      }
+  }
+
+  @media screen and (max-width: 426px) {
+    
+  h1{
+    font-size: 1.5rem;
+  }
+    #main-nav{
+      display: none;
+    }
+    #ham-nav{
+      display: flex;
+    }
+    .features{
+     
+      grid-template-columns: 1fr;
+      }
+      .features-two{
+        grid-template-columns: 1fr;
+        }
+        .footer{
+          text-align: center;
+          grid-template-columns:1fr;
+        }
+  }
