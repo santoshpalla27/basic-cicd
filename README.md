@@ -39,6 +39,8 @@ now go to manage Jenkins > tools > and install SonarQube scanner name as SonarQu
 now go to manage Jenkins > system > go to SonarQube server and enable environmental variable(so we can use SonarQube as env in project pipeline) and name it as sonarQube copy paste server url and token of project in the sonarqube
 
 
+copy from pipeline to }
+
 pipeline {
     agent any
 
